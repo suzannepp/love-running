@@ -25,7 +25,7 @@
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
             </ul>
         </nav>
@@ -34,25 +34,26 @@
     <section class="form-section">
      
        
-        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/"><h2>Let's get you signed up!</h2>
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
         
         <label for="fname">First Name</label>
-        <input id="fname" type="text" name="first_name" required>
+        <input id="fname" type="text" name="first_name" class="text-input" required>
         
         <label for="lname">Last Name</label>
-        <input id="lname" type="text" name="last_name" required>
+        <input id="lname" type="text" name="last_name" class="text-input"required>
         
         <label for="email">Email Address</label>
-        <input id="email" type="email" name="email_address" required>
+        <input id="email" type="email" name="email_address" class="text-input" required>
         
         <label for="road">Road</label>
         <input id="road" type="radio" name="running_preference" value="road" required>
         
         <label for="trail">Trail</label>
-        <input id="trail" type="radio" name="running_preference" value="trail">
+        <input id="trail" type="radio" name="running_preference" value="trail" required>
         
         <label for="both">Both</label>
-        <input id="both" type="radio" name="running_preference" value="both">
+        <input id="both" type="radio" name="running_preference" value="both" required>
         
         <input class="join-button" type="submit" value="Let's Run!">
         
